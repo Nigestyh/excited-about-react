@@ -5,3 +5,22 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+header {
+  background: rgba(33, 34, 42, 1);
+  height: 91px;
+  padding: 20px 23px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+nav img {
+  width: 50px;
+  margin-right: 6px;
+}
+nav span {
+  color: rgba(97, 218, 251, 1);
+  font-size: 40px;
+  font-weight: 700;
+}
