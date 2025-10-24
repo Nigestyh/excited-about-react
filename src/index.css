@@ -1,9 +1,12 @@
 body {
   margin: 0;
+  background-color: rgba(40, 45, 53, 1);
+  font-family: "Inter", sans-serif;
 }
 h1 {
-  font-size: 3.2em;
+  font-size: 40px;
   line-height: 1.1;
+  margin: 0 25px;
 }
 header {
   background: rgba(33, 34, 42, 1);
@@ -23,4 +26,24 @@ nav span {
   color: rgba(97, 218, 251, 1);
   font-size: 40px;
   font-weight: 700;
+}
+.reasons-list {
+  font-size: 18px;
+  margin-top: 40px;
+  max-width: 700px;
+}
+.reasons-list > li {
+  margin-block: 15px;
+}
+main {
+  color: white;
+  padding: 50px 30px;
+  background-image: url("assets/reactjs-icon.png");
+  background-repeat: no-repeat;
+  background-position: right 95%;
+}
+
+.reasons-list > li::marker {
+  color: rgba(97, 218, 251, 1);
+  font-size: 20px;
 }

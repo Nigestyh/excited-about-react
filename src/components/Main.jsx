@@ -2,7 +2,7 @@ function Main() {
   return (
     <main>
       <h1>Reasons I am excited to learn React</h1>
-      <ul>
+      <ul className="reasons-list">
         <li>
           React's custom components promote a highly composable approach to UI
           development, making it easier to build complex interfaces
